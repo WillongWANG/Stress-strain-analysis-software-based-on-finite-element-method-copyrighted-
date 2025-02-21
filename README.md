@@ -6,8 +6,17 @@
 
 有限元假设单元内结点只与其横纵坐标有关，并由此构造形函数，对于单元结点不同的个数和位置，相应的形函数也不同，但其中参数必须满足对称性、完备性、位移变形相容性。本软件的创新之处在于提供两种有限元模型，三结点和六结点三角形单元，进行计算求解，便于比较两种算法的精度和效率，探讨高阶单元的优劣。
 
-__软件设计逻辑、使用说明、用例测试参见[基于有限单元法的应力应变分析软件的设计与实现](https://github.com/WillongWANG/Stress-strain-analysis-software-based-on-finite-element-method-copyrighted-/blob/main/%E5%9F%BA%E4%BA%8E%E6%9C%89%E9%99%90%E5%8D%95%E5%85%83%E6%B3%95%E7%9A%84%E5%BA%94%E5%8A%9B%E5%BA%94%E5%8F%98%E5%88%86%E6%9E%90%E8%BD%AF%E4%BB%B6%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf)__
+## 软件设计逻辑、使用说明、用例测试
+参见[基于有限单元法的应力应变分析软件的设计与实现](https://github.com/WillongWANG/Stress-strain-analysis-software-based-on-finite-element-method-copyrighted-/blob/main/%E5%9F%BA%E4%BA%8E%E6%9C%89%E9%99%90%E5%8D%95%E5%85%83%E6%B3%95%E7%9A%84%E5%BA%94%E5%8A%9B%E5%BA%94%E5%8F%98%E5%88%86%E6%9E%90%E8%BD%AF%E4%BB%B6%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf)__
 
-**运行程序：下载easyMechanics文件夹，运行其中easyMechanics.exe**
+## 运行程序
+下载easyMechanics文件夹，运行其中easyMechanics.exe
 
-**运行项目源代码：**
+## 运行项目源代码
+
+
+## 软件著作权
+![Alt text](https://github.com/WillongWANG/Stress-strain-analysis-software-based-on-finite-element-method-copyrighted-/blob/main/copyright.png)
+
+
+

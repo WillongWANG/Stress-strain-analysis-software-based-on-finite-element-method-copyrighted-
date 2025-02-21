@@ -13,6 +13,7 @@
 下载easyMechanics文件夹，运行其中easyMechanics.exe
 
 ## 运行项目源代码
+下载jisuanlixue文件夹，用qt运行其中jisuanlixue.pro
 。
 
 ## 软件著作权

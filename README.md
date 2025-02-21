@@ -10,10 +10,10 @@
 参见[基于有限单元法的应力应变分析软件的设计与实现](https://github.com/WillongWANG/Stress-strain-analysis-software-based-on-finite-element-method-copyrighted-/blob/main/%E5%9F%BA%E4%BA%8E%E6%9C%89%E9%99%90%E5%8D%95%E5%85%83%E6%B3%95%E7%9A%84%E5%BA%94%E5%8A%9B%E5%BA%94%E5%8F%98%E5%88%86%E6%9E%90%E8%BD%AF%E4%BB%B6%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf)
 
 ## 运行程序
-下载easyMechanics文件夹，运行其中easyMechanics.exe
+下载easyMechanics.zip，解压后运行其中easyMechanics.exe
 
 ## 运行项目源代码
-下载jisuanlixue文件夹，用qt运行其中jisuanlixue.pro
+下载jisuanlixue.zip，解压后用qt运行其中jisuanlixue.pro
 。
 
 ## 软件著作权

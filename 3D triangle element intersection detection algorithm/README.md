@@ -8,7 +8,7 @@ if(A1、B1和C1在π2同侧或A2、B2和C2在π1同侧)<br>
 如：判断T2的3个顶点是否在平面π1同侧，建立表达式：t1=A1A2⋅n1,t2=A1B2⋅n1,t3=A1C2⋅n1.如果t1、t2和t3同号且都不为零，则三角面片T1和T2不相交。（有可能有一两个为0，其余同号，此时T1和T2可能不相交、相交、平行不相交，但一定异面，可在后面检测出）<br>
 else<br>
 &nbsp;&nbsp;&nbsp;&nbsp;if(n1与n2平行，且T2任一顶点在π1上)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;判定T1、T2共面，goto(2)；如果f=n1×n2=0，T1与T2是否平行(或共面)需要继续判断T2的任一顶点是否在π1上，即式(1) 中t1、t2和t3为&nbsp;&nbsp;&nbsp;&nbsp;0，则T1和T2共面；不在就T1和T2不相交<br>
+&nbsp;&nbsp;&nbsp;&nbsp;判定T1、T2共面，goto(2)；如果f=n1×n2=0，T1与T2是否平行(或共面)需要继续判断T2的任一顶点是否在π1上，即式(1) 中t1、t2和t3&nbsp;&nbsp;&nbsp;&nbsp;为0，则T1和T2共面；不在就T1和T2不相交<br>
 &nbsp;&nbsp;&nbsp;&nbsp;else<br>
 &nbsp;&nbsp;&nbsp;&nbsp;判定T1、T2异面，goto(3)；如果f的计算结果不为0，则三角面片T1和T2异面<br>
 &nbsp;&nbsp;&nbsp;&nbsp;end if<br>

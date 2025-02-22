@@ -13,7 +13,7 @@
 下载easyMechanics.zip，解压后运行其中easyMechanics.exe
 
 ## 运行项目源代码
-软件开发环境：Qt Creator 4.11.1 (Community)
+软件开发环境：Qt Creator 4.11.1 (Community)<p>
 下载jisuanlixue.zip，解压后用Qt运行其中jisuanlixue.pro
 
 

@@ -13,8 +13,9 @@
 下载easyMechanics.zip，解压后运行其中easyMechanics.exe
 
 ## 运行项目源代码
-下载jisuanlixue.zip，解压后用qt运行其中jisuanlixue.pro
-。
+软件开发环境：Qt Creator 4.11.1 (Community)
+下载jisuanlixue.zip，解压后用Qt运行其中jisuanlixue.pro
+
 
 ## 软件著作权
 ![Alt text](https://github.com/WillongWANG/Stress-strain-analysis-software-based-on-finite-element-method-copyrighted-/blob/main/copyright.png)

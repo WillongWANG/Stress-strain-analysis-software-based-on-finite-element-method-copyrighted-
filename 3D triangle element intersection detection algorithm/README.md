@@ -1,5 +1,4 @@
 ## 三维三角形单元交叉判定算法
-
 不失一般性，设拟相交判断的2个三角面片为T1（A1B1C1）和T2（A2B2C2），T1的3个顶点分别为A1、B1和C1，所在平面为π1，法向量为n1；T2的3个顶点分别为A2、B2和C2，所在平面为π2，法向量为n2。
 
 (1)计算T1各顶点与π1的关系及T2各顶点与π2的关系，排除不相交情况。总流程的伪代码为：<br>
@@ -26,14 +25,15 @@ g3=[C1B2⋅(C1A1×C1A2)]⋅[C1B1⋅(C1A1×C1A2)]<br>
 如果g1、g2和g3计算结果中存在小于0的情况，则线段A2B2与三角面片T1不相交；如果3个结果均为非负，则线段A2B2与三角面片T1相交<br>
 2)共面。如果A2B2与T1共面，用python的shapely库判断T1和A2B2是否相交<br>
 如果A2B2与T1共面，首先运用前述方法判断A2、B2是否在T1内，若至少存在一点在T1内，则线段A2B2与T1相交；若A2、B2都不在T1内，只有2种情况：A2B2与T1不相交和A2B2与T1共面相交。此时如果A2B2与T1共面相交，T1中必定存在边与T2异面相交，由于T1、T2的每一条边都要作相交判断，所以当A2、B2都不在T1内，算法中可认定为不相交或不作处理，不影响T1、T2相交判定最终结果。<br>
-![a](https://github.com/WillongWANG/Stress-strain-analysis-software-based-on-finite-element-method-copyrighted-/blob/main/3D%20triangle%20element%20intersection%20detection%20algorithm/image2.png)<br>
-<br>
+![a](https://github.com/WillongWANG/Stress-strain-analysis-software-based-on-finite-element-method-copyrighted-/blob/main/3D%20triangle%20element%20intersection%20detection%20algorithm/image2.png)
+
+
 ## 有限元单元合法性检测
 1.三角形有限单元的三顶点编号、坐标必须唯一<br>
 2.任意单元的任何一条边都应被有且只有两个单元共享<br>
 3.对于有共享顶点的两单元，该点对边不能与另一单元相交<br>
 4.除了上述不能有其他交叉情况<br>
-<br>
+
 程序**check_inp.ipynb**以读入**p.inp**为例进行检测：<br>
 （inp为ABAQUS的模型文件，包含三角形有限单元顶点编号及坐标，具体格式请参见官方文档）
 
